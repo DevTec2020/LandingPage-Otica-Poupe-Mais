@@ -1,0 +1,15 @@
+@import "tailwindcss"; 
+
+
+html {
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    font-optical-sizing: auto !important;
+}
+
+@theme {
+    /* Cores da identidade visual */
+    --color-brand-primary: #FFD700;
+    --color-brand-secondary: #FFC000;
+    --color-brand-dark: #1A1A1A;
+}

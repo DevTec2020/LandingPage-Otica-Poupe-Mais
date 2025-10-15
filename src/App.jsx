@@ -16,8 +16,8 @@ function App() {
     <>
       <Header/>
       <Hero/>
-      {/* <Servicos/>
-      <Oferta/>
+      <Servicos/>
+      {/* <Oferta/>
       <Clientes/>
       <Qualidade/>
       <Galeria/>

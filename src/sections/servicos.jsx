@@ -11,7 +11,8 @@ export default function Servicos(){
             
             
             
-            <div className="  mt-12 grid grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-6xl px-4">
+            <div className="  mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto max-w-6xl px-4">
+
                 <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
                         <FontAwesomeIcon icon={faShieldHalved} size="xl" className="w-8 h-8 mb-2 text-green-600"/>
@@ -22,7 +23,7 @@ export default function Servicos(){
 
                 <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
-                        <FontAwesomeIcon icon={faTruck} size="xl" className="w-8 h-8 mb-2 text-green-600"/>
+                        <FontAwesomeIcon icon={faClock} size="xl" className="w-8 h-8 mb-2 text-green-600"/>
                     </div>
                     <h3 className="text-xl font-bold mb-2">Entrega Rápida</h3>
                     <p className="text-gray-300">Receba seus óculos em até 48 horas após a aprovação do seu exame de vista.</p>

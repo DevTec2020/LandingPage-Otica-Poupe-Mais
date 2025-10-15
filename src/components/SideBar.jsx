@@ -28,7 +28,7 @@ export default function SideBar({ onClose }) {
         role="dialog"
         aria-modal="true"
       >
-        <div className="flex justify-center p-3 mb-2 border-b border-airtek-yellow">
+        <div className="flex justify-center p-3 mb-2 border-b border-brand-primary">
           <a href="/#" onClick={onClose}>
             <img src={Logo} alt="Ótica Logo" className="h-16" />
           </a>

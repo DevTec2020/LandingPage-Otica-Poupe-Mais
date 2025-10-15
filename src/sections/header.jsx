@@ -12,10 +12,11 @@ export default function Header() {
   const icone = isOpen ? faXmark : faBars;
 
   return (
-    <header className="bg-brand-dark border-b border-gray-800">
+    <header className="bg-brand-dark border-b-4 border-brand-primary">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <img src={Logo} alt="Logo Ótica" className="h-16" />
-
+        <a href="#">
+          <img src={Logo} alt="Logo Ótica" className="h-16" />
+        </a>
         {/* Menu desktop */}
         <nav className="hidden md:flex md:items-center space-x-8 font-bold text-white">
           <a href="#" className=" transition hover:text-amber-300">Home</a>
@@ -24,7 +25,7 @@ export default function Header() {
           <a
             href="https://wa.me/558597228120?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20óculos."
             target="_blank"
-            className="bg-brand-primary p-2 rounded-2xl text-black hover:bg-brand-secondary transition "
+            className="bg-brand-primary py-2 px-4 rounded-2xl text-black hover:bg-brand-secondary transition "
           >
             Fale conosco
           </a>

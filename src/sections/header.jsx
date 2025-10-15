@@ -5,14 +5,14 @@ import { AnimatePresence } from "framer-motion";
 import SideBar from "../components/SideBar";
 
 
-import Logo from "../assets/Logo_amarela.png";
+import Logo from "../assets/Logo_dourada.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const icone = isOpen ? faXmark : faBars;
 
   return (
-    <header className="bg-brand-dark border-b-4 border-brand-primary">
+    <header className="bg-brand-dark border-b-2 border-brand-primary">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <a href="#">
           <img src={Logo} alt="Logo Ótica" className="h-16" />

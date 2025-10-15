@@ -15,14 +15,14 @@ function App() {
   return (
     <>
       <Header/>
-      <Hero/>
+      {/* <Hero/>
       <Servicos/>
       <Oferta/>
       <Clientes/>
       <Qualidade/>
       <Galeria/>
       <Contato/>
-      <Footer/> 
+      <Footer/>  */}
     
       
      

@@ -18,7 +18,7 @@ export default function Servicos(){
                         <FontAwesomeIcon icon={faShieldHalved} size="xl" className="w-8 h-8 mb-2 text-green-600"/>
                     </div>
                     <h3 className="text-xl font-bold mb-2">Garantia Total</h3>
-                    <p className="text-gray-300">Todos os nossos produtos possuem garantia de 1 ano contra defeitos de fabricação.</p>
+                    <p className="text-gray-400">Todos os nossos produtos possuem garantia de 1 ano contra defeitos de fabricação.</p>
                 </div>
 
                 <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center">
@@ -26,7 +26,7 @@ export default function Servicos(){
                         <FontAwesomeIcon icon={faClock} size="xl" className="w-8 h-8 mb-2 text-green-600"/>
                     </div>
                     <h3 className="text-xl font-bold mb-2">Entrega Rápida</h3>
-                    <p className="text-gray-300">Receba seus óculos em até 48 horas após a aprovação do seu exame de vista.</p>
+                    <p className="text-gray-400">Receba seus óculos em até 48 horas após a aprovação do seu exame de vista.</p>
                 </div>
 
                 <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center">
@@ -34,7 +34,7 @@ export default function Servicos(){
                         <FontAwesomeIcon icon={faDollarSign} size="xl" className="w-8 h-8 mb-2 text-green-600"/>
                     </div>
                     <h3 className="text-xl font-bold mb-2">Preços Imbatíveis</h3>
-                    <p className="text-gray-300">Temos os melhores preços da região com parcelamento em até 12x sem juros.</p>
+                    <p className="text-gray-400">Temos os melhores preços da região com parcelamento em até 12x sem juros.</p>
                 </div>
             </div>
         </div>

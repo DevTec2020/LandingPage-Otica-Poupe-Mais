@@ -1,7 +1,6 @@
 import Header from "./sections/header"
 import Hero from "./sections/hero"
 import Oferta from "./sections/oferta"
-import Clientes from "./sections/Clientes"
 import Qualidade from "./sections/qualidade"
 import Galeria from "./sections/galeria"
 import Footer from "./sections/Footer"

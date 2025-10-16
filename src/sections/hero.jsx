@@ -6,6 +6,8 @@ import hero3 from "../assets/hero3.jpg";
 
 import Slide1 from "../components/Slide1";
 import Slide2 from "../components/Slide2";
+import Slide3 from "../components/Slide3";
+
 
 const SLIDES = [
   {
@@ -21,7 +23,7 @@ const SLIDES = [
   {
     id: 3,
     image: hero3,
-    SlideComponent: Slide1,
+    SlideComponent: Slide3,
   },
 ];
 
@@ -71,6 +73,7 @@ export default function Hero({ interval = 6000 }) {
                 src={s.image}
                 alt={s.alt}
                 className="absolute inset-0 w-full h-full object-cover"
+                loading="lazy"
               />
 
               {/* Overlay para melhorar contraste do texto */}

@@ -5,7 +5,7 @@ export default function Slide2(){
     return(
         <div className="w-full max-w-7xl mx-auto p-4 pt-10 flex flex-col lg:flex-row items-center justify-between gap-8">
         {/* Bloco de Texto e CTA */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left flex flex-col items-center lg:items-start">
+        <div className="w-full lg:w-1/2 text-center text-white lg:text-left flex flex-col items-center lg:items-start">
           <h1 className="text-3xl md:text-5xl font-extrabold leading-snug mb-4">
             RECEBA SEU ÓCULOS <br className="hidden md:inline" /> DE GRAU COMPLETO
           </h1>

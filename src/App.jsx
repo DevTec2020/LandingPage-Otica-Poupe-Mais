@@ -1,12 +1,13 @@
 import Header from "./sections/header"
 import Hero from "./sections/hero"
 import Oferta from "./sections/oferta"
+import Clientes from "./sections/clientes"
 import Qualidade from "./sections/qualidade"
 import Galeria from "./sections/galeria"
-import Footer from "./sections/Footer"
+import Footer from "./sections/footer"
 
-import Servicos from "./sections/Servicos"
-import Contato from "./sections/Contato"
+import Servicos from "./sections/servicos"
+import Contato from "./sections/contato"
 
 
 function App() {

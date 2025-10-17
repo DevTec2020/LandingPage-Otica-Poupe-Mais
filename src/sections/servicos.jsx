@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClock, faTruck, faShieldHalved, faLocationDot, faCheck, faDollarSign} from "@fortawesome/free-solid-svg-icons";
+import { faClock, faShieldHalved,faDollarSign, faGlasses} from "@fortawesome/free-solid-svg-icons";
 
 export default function Servicos(){
     return(
@@ -11,7 +11,14 @@ export default function Servicos(){
             
             
             
-            <div className="  mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 mx-auto max-w-6xl px-4">
+            <div className="  mt-12 grid grid-cols-1 md:grid-cols-4 gap-6 mx-auto max-w-6xl px-4">
+                <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center">
+                    <div className="bg-primary/10 p-4 rounded-full mb-4">
+                        <FontAwesomeIcon icon={faGlasses} size="xl" className="w-8 h-8 mb-2 text-green-600"/>
+                    </div>
+                    <h3 className="text-xl font-bold mb-2">Modelos Varados</h3>
+                    <p className="text-gray-400">Todos os nossos produtos possuem garantia de 1 ano contra defeitos de fabricação.</p>
+                </div>
 
                 <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">

@@ -3,15 +3,9 @@ import { faClock, faShieldHalved,faDollarSign, faGlasses} from "@fortawesome/fre
 
 export default function Servicos(){
     return(
-        <section className="py-16 bg-gray-100">
+        <section className="bg-gray-100">
         <div className="container mx-auto px-4">
-            <h2 className="text-3xl text-blak font-bold text-center mb-12">Por que escolher a Ótica Poupe Mais?</h2>
-            
-            
-            
-            
-            
-            <div className="  mt-12 grid grid-cols-1 md:grid-cols-4 gap-6 mx-auto max-w-6xl px-4">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mx-auto max-w-6xl px-4">
                 <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
                         <FontAwesomeIcon icon={faGlasses} size="xl" className="w-8 h-8 mb-2 text-green-600"/>

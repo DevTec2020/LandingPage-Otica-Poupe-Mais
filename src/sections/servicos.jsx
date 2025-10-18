@@ -3,39 +3,35 @@ import { faClock, faShieldHalved,faDollarSign, faGlasses} from "@fortawesome/fre
 
 export default function Servicos(){
     return(
-        <section className="bg-gray-100">
+        <section>
         <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mx-auto max-w-6xl px-4">
-                <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center">
+            <div className="relative z-30 -mt-16 grid grid-cols-1 md:grid-cols-4 gap-6 mx-auto max-w-6xl px-4">
+                <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
-                        <FontAwesomeIcon icon={faGlasses} size="xl" className="w-8 h-8 mb-2 text-green-600"/>
+                        <FontAwesomeIcon icon={faGlasses} size="4x" className="w-8 h-8 mb-2 text-brand-primary"/>
                     </div>
-                    <h3 className="text-xl font-bold mb-2">Modelos Varados</h3>
-                    <p className="text-gray-400">Todos os nossos produtos possuem garantia de 1 ano contra defeitos de fabricação.</p>
+                    <h3 className="text-xl font-bold mb-2">Modelos Varados com Garantia</h3>
                 </div>
 
-                <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center">
+                <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
-                        <FontAwesomeIcon icon={faShieldHalved} size="xl" className="w-8 h-8 mb-2 text-green-600"/>
+                        <FontAwesomeIcon icon={faShieldHalved} size="4x" className="w-8 h-8 mb-2 text-brand-primary"/>
                     </div>
-                    <h3 className="text-xl font-bold mb-2">Garantia Total</h3>
-                    <p className="text-gray-400">Todos os nossos produtos possuem garantia de 1 ano contra defeitos de fabricação.</p>
+                    <h3 className="text-xl font-bold mb-2">Garantia Total contra Defeitos de Fabricação.</h3>
                 </div>
 
-                <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center">
+                <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
-                        <FontAwesomeIcon icon={faClock} size="xl" className="w-8 h-8 mb-2 text-green-600"/>
+                        <FontAwesomeIcon icon={faClock} size="4x" className="w-8 h-8 mb-2 text-brand-primary"/>
                     </div>
-                    <h3 className="text-xl font-bold mb-2">Entrega Rápida</h3>
-                    <p className="text-gray-400">Receba seus óculos em até 48 horas após a aprovação do seu exame de vista.</p>
+                    <h3 className="text-xl font-bold mb-2">Entrega Rápida em até 48 horas</h3>
                 </div>
 
-                <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center">
+                <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
-                        <FontAwesomeIcon icon={faDollarSign} size="xl" className="w-8 h-8 mb-2 text-green-600"/>
+                        <FontAwesomeIcon icon={faDollarSign} size="4x" className="w-8 h-8 mb-2 text-brand-primary"/>
                     </div>
-                    <h3 className="text-xl font-bold mb-2">Preços Imbatíveis</h3>
-                    <p className="text-gray-400">Temos os melhores preços da região com parcelamento em até 12x sem juros.</p>
+                    <h3 className="text-xl font-bold mb-2">Temos os melhores preços da região</h3>
                 </div>
             </div>
         </div>

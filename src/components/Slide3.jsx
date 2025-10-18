@@ -18,18 +18,18 @@ export default function Slide3(){
                 <div 
                     data-aos="zoom-in" 
                     data-aos-duration="1000"
-                    className="w-full text-white flex flex-col items-center max-w-5xl px-4 lg:px-8"
+                    className="w-full text-white flex flex-col items-center max-w-7xl px-4 lg:px-8"
                 >
-                    <h1 className="text-center text-4xl md:text-6xl font-extrabold leading-snug mb-4 uppercase text-shadow-lg">
-                        Chega de esperar!
+                    <h1 className="text-center text-4xl md:text-5xl font-extrabold leading-snug mb-4 uppercase text-shadow-lg">
+                        Chega de esperar
                     </h1>
                     
                     <h2 className="text-center text-5xl md:text-7xl font-extrabold mb-8 text-amber-400 drop-shadow-2xl">
                         Entregamos seus óculos em tempo recorde
                     </h2>
                     
-                    <button className="mt-6 px-14 py-5 text-2xl font-black rounded-full text-black shadow-2xl transition duration-300 transform hover:scale-110 bg-amber-300 animate-pulse hover:animate-none">
-                        RECEBA SEU PEDIDO AGORA!
+                    <button className="mt-6 px-10 py-5 text-xl font-black rounded-full text-black shadow-2xl transition duration-300 transform hover:scale-110 bg-amber-300 animate-pulse hover:animate-none">
+                        FAÇA SEU PEDIDO
                     </button>
                 </div>
             </div>

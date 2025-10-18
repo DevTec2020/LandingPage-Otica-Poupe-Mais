@@ -19,18 +19,18 @@ export default function Slide2(){
                 <div 
                     data-aos="fade-up"
                     data-aos-duration="1200"
-                    className="flex flex-col items-center max-w-6xl px-4 lg:px-8"
+                    className="flex flex-col items-center max-w-7xl px-2 lg:px-8"
                 >
-                    <h1 className="text-3xl md:text-5xl text-center  font-extrabold leading-tight mb-4 text-shadow-lg">
+                    <h1 className="text-4xl md:text-5xl text-center  font-extrabold  mb-4 text-shadow-lg">
                         Sua visão merece o melhor
                     </h1>
                         
-                    <p className="text-amber-400 text-5xl text-center md:text-7xl font-extrabold drop-shadow-2xl"> 
+                    <p className="text-amber-400 text-5xl md:text-7xl text-center  font-extrabold drop-shadow-2xl"> 
                         Óculos com descontos incríveis! 
                     </p>
 
-                    <button className="mt-12 px-14 py-5 text-2xl font-black rounded-full text-black shadow-2xl transition duration-300 transform hover:scale-110 bg-amber-300 animate-pulse hover:animate-none">
-                        APROVEITAR OFERTAS EXCLUSIVAS
+                    <button className="mt-12 px-10 py-5 text-xl font-black rounded-full text-black shadow-2xl transition duration-300 transform hover:scale-110 bg-amber-300 animate-pulse hover:animate-none">
+                        APROVEITAR OFERTAS
                     </button>
                 </div>
             </div>

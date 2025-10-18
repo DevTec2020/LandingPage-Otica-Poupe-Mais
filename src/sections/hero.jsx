@@ -58,7 +58,7 @@ export default function Hero({ interval = 6000 }) {
       onMouseLeave={() => setIsPaused(false)}
     >
       {/* Slides */}
-      <div id="home" className="relative h-[60vh] md:h-[70vh] overflow-hidden">
+      <div id="home" className="relative h-[80vh] md:h-[70vh] overflow-hidden">
         {SLIDES.map((s, i) => {
           const ActiveSlide = s.SlideComponent;
 

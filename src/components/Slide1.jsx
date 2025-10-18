@@ -29,8 +29,8 @@ export default function Slide1(){
                         EM 1 HORA OU MENOS
                     </h2>
 
-                    <button className="px-14 py-5 text-2xl font-black rounded-full text-black shadow-2xl transition duration-300 transform hover:scale-105 bg-amber-300 mb-6 animate-pulse hover:animate-none">
-                        PEÇA SEU ORÇAMENTO AGORA!
+                    <button className="px-10 py-5 text-xl font-black rounded-full text-black shadow-2xl transition duration-300 transform hover:scale-105 bg-amber-300 mb-6 animate-pulse hover:animate-none">
+                        PEÇA SEU ORÇAMENTO!
                     </button>
                             
                     <div className="flex justify-center items-center gap-2">

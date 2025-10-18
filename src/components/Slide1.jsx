@@ -2,32 +2,48 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 import Pay from "../assets/pagamento.webp"
+import hero1 from "../assets/hero1.jpg";
 
-export default function Slide2(){
+
+export default function Slide1(){
     return(
-        <div className="absolute inset-0 bg-brand-primary/10 text-white   px-22 p-4 pt-10 flex flex-col lg:flex-row items-center justify-between gap-8">
-        {/* Bloco de Texto e CTA */}
-        <div className="w-full lg:w-1/2 text-center text-white lg:text-left flex flex-col items-center lg:items-start">
-          <h1 className="text-3xl md:text-5xl font-extrabold leading-snug mb-4">
-            RECEBA SEU ÓCULOS <br className="hidden md:inline" /> DE GRAU COMPLETO
-          </h1>
-          <h2 className="text-4xl md:text-6xl font-extrabold mb-6 text-amber-300">
-            EM 1 HORA OU MENOS
-          </h2>
+        <div className="absolute inset-0 w-full h-full">
+                <img
+                    src={hero1}
+                    alt="Imagem de fundo do slide"
+                    className="absolute inset-0 w-full h-full object-cover z-0"
+                    loading="lazy"
+                />
 
-          <button className="px-12 py-4 text-xl font-bold rounded-full text-black shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105 bg-amber-300 mb-4">
-            FALAR COM UM CONSULTOR
-          </button>
-          <div className="flex justify-center items-center mb-4  gap-1">
-            <FontAwesomeIcon icon={faCheck} size="lg"/>
-            <p className="text-sm flex items-center justify-center lg:justify-start">
-              Aceitamos <span className="font-bold ml-1">PIX, VISA e MASTERCARD</span>
-            </p>
-          </div>
-          <img src={Pay} alt="" className="w-[50vh]" />
+            <div className="absolute inset-0 bg-black/60 z-10"></div>
 
+            <div className="absolute inset-0 z-30 flex items-center justify-center p-4">
+                <div 
+                    data-aos="fade-right" 
+                    className="w-full text-white flex flex-col items-center lg:items-start max-w-7xl px-4 lg:px-8"
+                >
+                    <h1 className="text-3xl md:text-5xl font-extrabold leading-snug mb-4 text-shadow-lg">
+                        RECEBA SEU ÓCULOS <br className="hidden md:inline" /> DE GRAU COMPLETO
+                    </h1>
+                    <h2 className="text-4xl md:text-6xl font-extrabold mb-6 text-amber-400">
+                        EM 1 HORA OU MENOS
+                    </h2>
+
+                    <button className="px-14 py-5 text-2xl font-black rounded-full text-black shadow-2xl transition duration-300 transform hover:scale-105 bg-amber-300 mb-6 animate-pulse hover:animate-none">
+                        PEÇA SEU ORÇAMENTO AGORA!
+                    </button>
+                            
+                    <div className="flex justify-center items-center gap-2">
+                        <FontAwesomeIcon icon={faCheck} size="lg" className="text-amber-400"/>
+                        <p className="text-base font-semibold flex items-center justify-center lg:justify-start">
+                            Aceitamos <span className="font-extrabold ml-1">PIX, VISA e MASTERCARD</span>
+                        </p>
+                    </div>
+            
+                    <img src={Pay} alt="Métodos de Pagamento" className="w-[40vh] mt-4" />
+
+                </div>
+            </div>
         </div>
-      </div>
-        
     )
 }

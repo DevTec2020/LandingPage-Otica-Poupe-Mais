@@ -1,7 +1,4 @@
-import AOS from 'aos'; 
-
-import hero2 from "../assets/hero2.jpg";
-
+import hero2 from "../assets/hero2.webp";
 
 export default function Slide2(){
     return(
@@ -17,8 +14,6 @@ export default function Slide2(){
 
             <div className="absolute inset-0 z-30 flex flex-col items-center justify-center p-4 text-white">
                 <div 
-                    data-aos="fade-up"
-                    data-aos-duration="1200"
                     className="flex flex-col items-center max-w-7xl px-2 lg:px-8"
                 >
                     <h1 className="text-4xl md:text-5xl text-center  font-extrabold  mb-4 text-shadow-lg">

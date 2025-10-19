@@ -1,6 +1,4 @@
-import AOS from 'aos'; // Importe o AOS
-
-import hero3 from "../assets/hero3.jpg";
+import hero3 from "../assets/hero3.webp";
 
 export default function Slide3(){
     return(
@@ -16,8 +14,6 @@ export default function Slide3(){
 
             <div className="absolute inset-0 z-30 flex items-center justify-center p-4">
                 <div 
-                    data-aos="zoom-in" 
-                    data-aos-duration="1000"
                     className="w-full text-white flex flex-col items-center max-w-7xl px-4 lg:px-8"
                 >
                     <h1 className="text-center text-4xl md:text-5xl font-extrabold leading-snug mb-4 uppercase text-shadow-lg">

@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 import Pay from "../assets/pagamento.webp"
-import hero1 from "../assets/hero1.jpg";
+import hero1 from "../assets/hero1.webp";
 
 
 export default function Slide1(){
@@ -19,7 +19,6 @@ export default function Slide1(){
 
             <div className="absolute inset-0 z-30 flex items-center justify-center p-4">
                 <div 
-                    data-aos="fade-right" 
                     className="w-full text-white flex flex-col items-center lg:items-start max-w-7xl px-4 lg:px-8"
                 >
                     <h1 className="text-3xl md:text-4xl font-extrabold leading-snug mb-2 text-shadow-lg uppercase">

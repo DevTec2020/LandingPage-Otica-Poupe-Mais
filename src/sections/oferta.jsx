@@ -39,7 +39,7 @@ export default function Oferta() {
           <img src={Logo} alt="Logo Ótica Poupe Mais" className="mx-auto mb-6 w-52" />
 
           <p className="text-xl font-semibold text-gray-700 mb-6">
-            Qualidade, agilidade e o melhor custo-benefício do Rio!
+            Qualidade, agilidade e o melhor custo-benefício!
           </p>
 
           <div className="bg-yellow-50 border-4 border-dashed border-yellow-400 py-6 rounded-xl mb-8">

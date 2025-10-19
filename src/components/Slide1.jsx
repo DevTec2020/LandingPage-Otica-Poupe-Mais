@@ -22,11 +22,11 @@ export default function Slide1(){
                     data-aos="fade-right" 
                     className="w-full text-white flex flex-col items-center lg:items-start max-w-7xl px-4 lg:px-8"
                 >
-                    <h1 className="text-3xl md:text-5xl font-extrabold leading-snug mb-4 text-shadow-lg">
-                        RECEBA SEU ÓCULOS <br className="hidden md:inline" /> DE GRAU COMPLETO
+                    <h1 className="text-3xl md:text-4xl font-extrabold leading-snug mb-2 text-shadow-lg uppercase">
+                        Compre seu óculos de grau
                     </h1>
-                    <h2 className="text-4xl md:text-6xl font-extrabold mb-6 text-amber-400">
-                        EM 1 HORA OU MENOS
+                    <h2 className="text-4xl md:text-8xl font-extrabold mb-6 text-amber-400 uppercase">
+                        e ganhe um solar!
                     </h2>
 
                     <button className="px-10 py-5 text-xl font-black rounded-full text-black shadow-2xl transition duration-300 transform hover:scale-105 bg-amber-300 mb-6 animate-pulse hover:animate-none">

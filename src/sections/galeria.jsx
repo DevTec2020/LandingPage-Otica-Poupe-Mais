@@ -1,7 +1,7 @@
-import person1 from "../assets/Clientes/person1.jpg"
-import person2 from "../assets/Clientes/person2.jpg"
-import person3 from "../assets/Clientes/person3.jpg"
-import person4 from "../assets/Clientes/person4.jpg"
+import person1 from "../assets/Clientes/person1.webp"
+import person2 from "../assets/Clientes/person2.webp"
+import person3 from "../assets/Clientes/person3.webp"
+import person4 from "../assets/Clientes/person4.webp"
 
 export default function Galeria(){
     const GALLERY_IMAGE_URLS = [

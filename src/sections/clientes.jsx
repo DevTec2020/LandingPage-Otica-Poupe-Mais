@@ -29,13 +29,8 @@ export default function Clientes() {
       className="py-16 px-4 text-center"
       style={{ backgroundColor: COLORS.lightGray }}
     >
-      <h3 className="text-3xl md:text-4xl font-extrabold mb-10 text-gray-800">
-        MAIS DE 3 MIL AVALIAÇÕES{" "}
-        <FontAwesomeIcon
-          icon={faStar}
-          className="w-6 h-6 inline-block text-yellow-500 mb-1"
-        />{" "}
-        5 ESTRELAS NO GOOGLE
+      <h3 className="text-3xl md:text-3xl font-extrabold mb-10 text-gray-500 uppercase">
+        Veja o que nossos clientes estão dizendo.
       </h3>
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -66,9 +61,7 @@ export default function Clientes() {
         ))}
       </div>
 
-      <p className="mt-8 text-sm text-gray-500">
-        *Mockup de avaliações. Consulte as avaliações reais no Google.
-      </p>
+      
     </section>
   );
 }

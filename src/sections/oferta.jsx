@@ -36,17 +36,21 @@ export default function Oferta() {
 
         {/* Lado Direito – Oferta */}
         <div className="w-full lg:w-1/2 bg-white rounded-2xl shadow-2xl p-10 text-center relative z-10">
-          <img src={Logo} alt="Logo Ótica Poupe Mais" className="mx-auto mb-6 w-52" />
+          <img src={Logo} alt="Logo Ótica Poupe Mais" className="mx-auto mb-6 w-82" />
 
           <p className="text-xl font-semibold text-gray-700 mb-6">
-            Qualidade, agilidade e o melhor custo-benefício!
+            Qualidade, agilidade e 
+            <span className="text-green-600 font-bold"> o melhor preço da cidade!</span>
           </p>
 
           <div className="bg-yellow-50 border-4 border-dashed border-yellow-400 py-6 rounded-xl mb-8">
-            <p className="text-lg text-gray-700 mb-1">Óculos completo a partir de</p>
-            <p className="text-5xl font-extrabold text-green-600">
-              R$ <span className="text-7xl">600</span>
-            </p>
+            <p className="text-lg font-bold text-gray-700 mb-1">Óculos completo a partir de</p>
+            <div className="flex justify-center font-extrabold text-green-600">
+              <span className="text-2xl mt-4 self-start">R$</span>
+              <span className="text-8xl">249</span>
+              <span className="text-4xl self-end">,00</span>
+            </div>
+            <p className="mt-2 text-md">*Parcelamos em até 10x de 24,90</p>
           </div>
 
           <button
@@ -56,7 +60,7 @@ export default function Oferta() {
           </button>
 
           <div className="mt-6 text-sm text-gray-600">
-            <p>Parcele em até <span className="font-bold">12x no cartão</span>.</p>
+            <p>Parcelamos em até <span className="font-bold">10x sem juros nos cartões</span>.</p>
             <div className="flex justify-center mt-2">
               <img src={Pay} alt="Bandeiras de Cartão" className="h-10" />
             </div>

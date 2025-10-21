@@ -10,21 +10,21 @@ export default function Servicos(){
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
                         <FontAwesomeIcon icon={faGlasses} size="4x" className="w-8 h-8 mb-2 text-brand-primary"/>
                     </div>
-                    <h3 className="text-xl font-bold mb-2">Modelos Varados com Garantia</h3>
+                    <h3 className="text-xl font-bold mb-2">Temos modelos Variados para seu estilo</h3>
                 </div>
 
                 <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
                         <FontAwesomeIcon icon={faShieldHalved} size="4x" className="w-8 h-8 mb-2 text-brand-primary"/>
                     </div>
-                    <h3 className="text-xl font-bold mb-2">Garantia Total contra Defeitos de Fabricação.</h3>
+                    <h3 className="text-xl font-bold mb-2">Garantia Total contra Defeitos de Fabricação</h3>
                 </div>
 
                 <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
                         <FontAwesomeIcon icon={faClock} size="4x" className="w-8 h-8 mb-2 text-brand-primary"/>
                     </div>
-                    <h3 className="text-xl font-bold mb-2">Entrega Rápida em até 48 horas</h3>
+                    <h3 className="text-xl font-bold mb-2">Entregamos seu óculos em até 59 minutos</h3>
                 </div>
 
                 <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">

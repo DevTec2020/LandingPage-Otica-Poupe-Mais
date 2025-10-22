@@ -1,64 +1,90 @@
+import Logo from "../assets/Logo_amarela.png";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock, faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram, faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+
 export default function Footer(){
-    return(
-        <footer className="bg-dark border-t border-primary/20 py-12">
-        <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div>
-                    <div className="flex items-center space-x-2 mb-4">
-                        <i data-feather="eye" className="text-primary w-6 h-6"></i>
-                        <span className="text-xl font-bold text-primary">Ótica Poupe Mais</span>
+  return (
+    <>
+    <footer className="bg-brand-dark text-white py-8 border-t-2 border-brand-secondary">
+      <div className="container lg:mx-auto px-4">
+        <div className="flex flex-col lg:flex-row flex-wrap justify-between">
+            <div className="flex mb-8 lg:mb-0">
+                <div className="flex flex-1 items-center mb-4">
+                    <img src={Logo} alt="Logo Ótica" className=" h-20 md:h-30 rounded-lg object-cover"/>
+                </div>
+            </div>
+            
+            <div className="flex flex-col justify-center md:items-start">
+                <h1 className="font-bold text-2xl uppercase">Ótica Poupe Mais</h1>
+                <div className="space-y-1 mt-6">
+                    <h3 className="text-md font-bold mb-2">ENTRE EM CONTATO</h3>
+                    <div className="flex items-start">
+                        <FontAwesomeIcon icon={faLocationDot} className="mr-2 mt-1 w-4 h-4"/>
+                        <span>R. Joaquim Felício, 395 - Lj-01 - Messejana, Fortaleza - CE</span>
                     </div>
-                    <p className="text-gray-400">A ótica que cuida da sua visão e do seu bolso.</p>
-                </div>
-                <div>
-                    <h4 className="text-lg font-bold mb-4">Links</h4>
-                    <ul className="space-y-2">
-                        <li><a href="#" className="text-gray-400 hover:text-primary transition">Home</a></li>
-                        <li><a href="#" className="text-gray-400 hover:text-primary transition">Produtos</a></li>
-                        <li><a href="#" className="text-gray-400 hover:text-primary transition">Promoções</a></li>
-                        <li><a href="#" className="text-gray-400 hover:text-primary transition">Contato</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 className="text-lg font-bold mb-4">Contato</h4>
-                    <ul className="space-y-2">
-                        <li className="flex items-center text-gray-400">
-                            <i data-feather="map-pin" className="mr-2 w-4 h-4"></i> Av. Principal, 123 - Centro
-                        </li>
-                        <li className="flex items-center text-gray-400">
-                            <i data-feather="phone" className="mr-2 w-4 h-4"></i> (11) 1234-5678
-                        </li>
-                        <li className="flex items-center text-gray-400">
-                            <i data-feather="mail" className="mr-2 w-4 h-4"></i> contato@oticapoupemais.com
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 className="text-lg font-bold mb-4">Redes Sociais</h4>
-                    <div className="flex space-x-4">
-                        <a href="#" className="text-gray-400 hover:text-primary transition">
-                            <i data-feather="facebook" className="w-6 h-6"></i>
-                        </a>
-                        <a href="#" className="text-gray-400 hover:text-primary transition">
-                            <i data-feather="instagram" className="w-6 h-6"></i>
-                        </a>
-                        <a href="#" className="text-gray-400 hover:text-primary transition">
-                            <i data-feather="twitter" className="w-6 h-6"></i>
-                        </a>
-                        <a href="#" className="text-gray-400 hover:text-primary transition">
-                            <i data-feather="youtube" className="w-6 h-6"></i>
-                        </a>
+                    <div className="flex items-center">
+                        <FontAwesomeIcon icon={faPhone} className="mr-2 w-4 h-4"/> 
+                        <span>(85) 99281-9050</span>
                     </div>
-                    <div className="mt-6">
-                        <h5 className="font-bold mb-2">Horário de Funcionamento</h5>
-                        <p className="text-gray-400">Seg-Sex: 9h-18h Sáb: 9h-13h</p>
+                    <div className="flex items-center">
+                        <FontAwesomeIcon icon={faEnvelope} className="mr-2 w-4 h-4"/>
+                        <span>email@dominio.com.br</span>
+                    </div>
+                    <div className="flex items-center">
+                        <FontAwesomeIcon icon={faClock} className="mr-2 w-4 h-4"/>
+                        <span>Seg-Sex: 8h às 17h</span>
                     </div>
                 </div>
             </div>
-            <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500">
-                <p>© 2023 Ótica Poupe Mais. Todos os direitos reservados.</p>
+            
+            <div className="flex flex-col justify-center mt-8 lg:mt-0">
+                <h3 className="font-bold text-lg mb-4">Redes Sociais</h3>
+                <div className="flex space-x-4">
+                    <a href="https://www.linkedin.com/" target="_blank" 
+                        className="bg-brand-blue-light hover:bg-brand-blue-light/90 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                        <FontAwesomeIcon icon={faLinkedin} size="xl"/>
+                    </a>
+                    <a href="https://www.instagram.com/oticapoupemais" target="_blank" 
+                        className="bg-brand-blue-light hover:bg-brand-blue-light/90 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                        <FontAwesomeIcon icon={faInstagram} size="xl"/>
+                    </a>
+                    <a href="https://wa.me/85992819050?text=Olá,%20vim%20do%20site%20e%20quero%20saber%20mais%20sobre%20os%20óculos." target="_blank"
+                        className="bg-brand-blue-light hover:bg-brand-blue-light/90 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                        <FontAwesomeIcon icon={faWhatsapp} size="xl"/>
+                    </a>
+                    <a href="mailto:" target="_blank" 
+                        className="bg-brand-blue-light hover:bg-brand-blue-light/90 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
+                        <FontAwesomeIcon icon={faEnvelope} size="xl"/>
+                    </a>
+                </div>
             </div>
         </div>
+        
+        
+
+        <div className="mt-8 pt-5 border-t border-gray-700">
+            <div className="md:flex md:flex-wrap md:items-center md:justify-between px-3 lg:px-0">
+                <div className="text-center md:text-left">
+                    <p className="text-gray-400 text-sm uppercase">Óticas Poupe Mais - CNPJ: 00.000.000/0000-00</p>
+                </div>
+
+                <div className="mt-4 md:mt-2 lg:mt-0 text-center md:text-left">
+                    <p className="text-gray-400 text-sm">
+                        <span>
+                            Desenvolvido por <a href="https://www.tecnoldeskservicos.com.br" target="_blank" className="font-bold">TecnolDesk Serviços</a>
+                        </span>
+                    </p>
+                </div>
+                
+                <div className="mt-4 md:mt-0 text-center md:text-right">
+                    <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} Óticas Poupe Mais. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+      </div>
     </footer>
-    )
+    </>
+  )
 }

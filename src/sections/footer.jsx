@@ -10,11 +10,11 @@ export default function Footer(){
     <footer className="bg-brand-dark text-white py-8 border-t-2 border-brand-secondary">
       <div className="container lg:mx-auto px-4">
         <div className="flex flex-col lg:flex-row flex-wrap justify-between">
-            <div className="flex mb-8 lg:mb-0">
+            <a href="#" className="flex mb-8 lg:mb-0">
                 <div className="flex flex-1 items-center mb-4">
                     <img src={Logo} alt="Logo Ótica" className=" h-20 md:h-30 rounded-lg object-cover"/>
                 </div>
-            </div>
+            </a>
             
             <div className="flex flex-col justify-center md:items-start">
                 <h1 className="font-bold text-2xl uppercase">Ótica Poupe Mais</h1>

@@ -35,12 +35,11 @@ export default function SideBar({ onClose }) {
         </div>
 
         <nav className="flex flex-col gap-1 font-sans text-base font-normal">
-          <a href="/#solucoes" onClick={onClose} className="p-3 border-b border-white/10">Home</a>
-          <a href="/#empresa" onClick={onClose} className="p-3 border-b border-white/10">Produtos</a>
-          <a href="/produtos" onClick={onClose} className="p-3 border-b border-white/10">Galeria</a>
-          <a href="/#contato" onClick={onClose} className="p-3 border-b border-white/10">Contato</a>
+          <a href="#home" onClick={onClose} className="p-3 border-b border-white/10">Home</a>
+          <a href="#ofertas" onClick={onClose} className="p-3 border-b border-white/10">Ofertas</a>
+          <a href="#galeria" onClick={onClose} className="p-3 border-b border-white/10">Galeria</a>
           <a
-            href="https://wa.me/558597228120?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20óculos."
+            href="https://wa.me/5585992819050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20óculos."
             target="_blank"
             rel="noreferrer"
             onClick={onClose}

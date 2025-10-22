@@ -19,13 +19,13 @@ export default function Header() {
         </a>
         {/* Menu desktop */}
         <nav className="hidden md:flex md:items-center space-x-8 font-bold text-white">
-          <a href="#" className=" transition hover:text-amber-300">Home</a>
-          <a href="#" className=" transition hover:text-amber-300">Produtos</a>
-          <a href="#" className=" transition hover:text-amber-300">Galeria</a>
+          <a href="#home" className=" transition hover:text-amber-300">Home</a>
+          <a href="#ofertas" className=" transition hover:text-amber-300">Ofertas</a>
+          <a href="#galeria" className=" transition hover:text-amber-300">Galeria</a>
           <a
             href="https://wa.me/558597228120?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20óculos."
             target="_blank"
-            className="bg-brand-primary py-2 px-4 rounded-2xl text-black hover:bg-brand-secondary transition "
+            className="bg-brand-primary py-2 px-6 rounded-full text-black hover:bg-brand-secondary transition "
           >
             Fale conosco
           </a>

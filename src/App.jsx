@@ -27,7 +27,7 @@ function App() {
       <Oferta/>
       <Clientes/>
       <Galeria/>
-
+      <Contato/>
       {/* <Qualidade/>
       <Contato/>
       <Footer/>  */}

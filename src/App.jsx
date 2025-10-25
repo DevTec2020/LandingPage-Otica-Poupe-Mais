@@ -26,8 +26,8 @@ function App() {
       <Servicos/>
       <Oferta/>
       <Clientes/>
-      <Galeria/>
       <Contato/>
+      <Galeria/>
       <Footer/>
       {/* <Qualidade/>
       <Contato/>

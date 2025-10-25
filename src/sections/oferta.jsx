@@ -5,7 +5,7 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 export default function Oferta() {
   return (
-    <section id="ofertas" className="-mt-40 pt-50 pb-16 px-6 bg-brand-secondary/40 relative overflow-hidden">
+    <section id="ofertas" className="-mt-40 pt-50 pb-16 px-6 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 items-center">
 
         {/* Lado Esquerdo – Dores */}

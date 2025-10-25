@@ -1,5 +1,5 @@
 import Header from "./sections/header"
-import Hero from "./sections/hero"
+import Hero1 from "./sections/hero1"
 import Oferta from "./sections/oferta"
 import Clientes from "./sections/clientes"
 import Qualidade from "./sections/qualidade"
@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Hero/>
+      <Hero1/>
       <Servicos/>
       <Oferta/>
       <Clientes/>

@@ -13,3 +13,7 @@ html {
     --color-brand-secondary: #FFC000;
     --color-brand-dark: #1A1A1A;
 }
+
+.title-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}

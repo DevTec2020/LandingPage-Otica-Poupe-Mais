@@ -5,7 +5,7 @@ export default function Servicos(){
     return(
         <section>
         <div className="container mx-auto px-4">
-            <div className="relative z-30 -mt-16 grid grid-cols-1 md:grid-cols-4 gap-6 mx-auto max-w-6xl px-4">
+            <div className="relative z-30 -mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto max-w-6xl px-4">
                 <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
                         <FontAwesomeIcon icon={faGlasses} size="4x" className="w-8 h-8 mb-2 text-brand-primary"/>

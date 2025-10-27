@@ -1,41 +1,32 @@
 import Header from "./sections/header"
-import Hero1 from "./sections/hero1"
+import Hero from "./sections/hero"
+import Servicos from "./sections/servicos"
 import Oferta from "./sections/oferta"
 import Clientes from "./sections/clientes"
-import Qualidade from "./sections/qualidade"
+import Contato from "./sections/contato"
 import Galeria from "./sections/galeria"
 import Footer from "./sections/footer"
 
-import Servicos from "./sections/servicos"
-import Contato from "./sections/contato"
-
-// import 'aos/dist/aos.css';
-// import AOS from 'aos';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 
 function App() {
-  // AOS.init({
-  //     duration: 1000,
-  //     once: true
-  // });
+  AOS.init({
+      duration: 1000,
+      once: true
+  });
 
   return (
     <>
       <Header/>
-      <Hero1/>
+      <Hero/>
       <Servicos/>
       <Oferta/>
       <Clientes/>
       <Contato/>
       <Galeria/>
       <Footer/>
-      {/* <Qualidade/>
-      <Contato/>
-      <Footer/>  */}
-    
-      
-     
-
     </>
   )
 }

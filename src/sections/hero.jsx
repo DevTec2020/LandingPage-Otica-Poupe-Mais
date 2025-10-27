@@ -1,84 +1,61 @@
-import { useEffect, useRef, useState } from "react";
-import AOS from 'aos';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+
+import Pay from "../assets/pagamento.webp";
+import hero1 from "../assets/hero1.png";
 
 
-import Slide1 from "../components/Slide1";
-import Slide2 from "../components/Slide2";
-import Slide3 from "../components/Slide3";
+export default function Hero(){
+    return(
+        <div className="relative h-[80vh] md:h-[70vh] overflow-hidden bg-gradient-to-tl from-brand-primary/30 to-brand-secondary">
+            {/* Imagem de Fundo */}
+            <img
+                src={hero1}
+                alt="Imagem de fundo da promoção de óculos"
+                className="w-full h-full object-cover lg:object-contain lg:object-right-bottom opacity-20 lg:opacity-100"
+                loading="lazy"
+            />
 
+            {/* Overlay Escuro para Legibilidade */}
+            {/* <div className="absolute inset-0 bg-black/9 z-10"></div> */}
 
-const SLIDES = [
-  {
-    id: 1,
-    SlideComponent: Slide1,
-  },
-  {
-    id: 2,
-    SlideComponent: Slide2,
-  },
-  {
-    id: 3,
-    SlideComponent: Slide3,
-  },
-];
+            {/* Conteúdo Principal */}
+            <div className="absolute inset-0 z-30 flex items-center p-4">
+                <div 
+                    className="w-[70vh] text-white flex flex-col items-center lg:items-start  px-4 lg:px-10 "
+                >
+                    
+                    {/* TÍTULO PRINCIPAL - Foco no benefício */}
+                    <div className="leading-tight mb-8 text-center lg:text-left text-shadow-xl uppercase">
+                        <span className="text-xl md:text-3xl text-black font-bold">Compre Óculos de Grau e</span> 
+                        <p className="text-3xl md:text-6xl font-extrabold title-shadow">
+                            <span className="text-white ">GANHE</span> <span className="">um Solar Exclusivo</span>
+                        </p>
+                    </div>
 
-export default function Hero({ interval = 6000 }) {
-  const [index, setIndex] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
-  const slidesCount = SLIDES.length;
-  const mountedRef = useRef(false);
-
-  useEffect(() => {
-    if (!mountedRef.current) mountedRef.current = true;
-
-    const aosRefreshTimeout = setTimeout(() => {
-      AOS.refresh();
-    }, 800);
-
-    if (isPaused){
-      return () => clearTimeout(aosRefreshTimeout);
-    } 
-    
-    const autoSlideTimeout = setTimeout(() => {
-      setIndex((i) => (i + 1) % slidesCount);
-    }, interval);
-
-    return() => {
-      clearTimeout(aosRefreshTimeout);
-      clearTimeout(autoSlideTimeout);
-    }; 
-  },[index, isPaused, interval, slidesCount]);
-
-
-
-  return (
-    <div
-      className="relative w-full"
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => setIsPaused(false)}
-    >
-      {/* Slides */}
-      <div id="home" className="relative h-[80vh] md:h-[70vh] overflow-hidden">
-        {SLIDES.map((s, i) => {
-          const ActiveSlide = s.SlideComponent;
-
-          return (
-            <div
-              key={s.id}
-              className={`absolute inset-0 transition-opacity duration-700 ease-in-out ${
-                i === index
-                  ? "opacity-100 z-20"
-                  : "opacity-0 z-10 pointer-events-none"
-              }`}
-            >
-              {/* Conteúdo do Slide */}
-              <div className="absolute inset-0 z-30 flex items-center justify-center">
-                <ActiveSlide />
-              </div>
+                    {/* Botão de Ação (CTA) - Chamativo e Pulsante */}
+                    <button className="px-12 py-5 text-xl font-black rounded-full 
+                        text-brand-dark 
+                        shadow-2xl transition duration-300 transform hover:scale-105 
+                        bg-gradient-to-b from-brand-primary to-brand-secondary 
+                        mb-8 animate-bounce hover:animate-none">
+                        APROVEITE AGORA!
+                    </button>
+                    
+                    
+                        
+                        {/* Selo de Garantia/Oferta */}
+                        <div className="flex items-start md:items-center gap-2 bg-gray-400/30  p-2 rounded-lg max-w-[35vh] md:max-w-full">
+                            <FontAwesomeIcon icon={faCheck} size="lg" className="text-green-600 pt-1 md:pt-0"/>
+                            <p className="text-lg font-semibold tracking-wide text-white "> {/* Adicionado 'text-white' para segurança */}
+                                <span className="font-extrabold text-green-600 ">Dupla Proteção</span> garantida para sua visão.
+                            </p>
+                        </div>
+                        
+                        
+                        
+                </div>
             </div>
-          );
-        })}
-      </div>
-    </div>
-  );
+        </div>
+    )
 }

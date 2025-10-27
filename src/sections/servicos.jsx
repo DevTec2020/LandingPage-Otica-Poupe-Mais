@@ -6,32 +6,36 @@ export default function Servicos(){
         <section>
         <div className="container mx-auto px-4">
             <div className="relative z-30 -mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto max-w-6xl px-4">
-                <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
+                <div data-aos="fade-up" data-aos-delay="100" 
+                    className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
                         <FontAwesomeIcon icon={faGlasses} size="4x" className="w-8 h-8 mb-2 text-brand-primary"/>
                     </div>
-                    <h3 className="text-xl font-bold mb-2">Temos modelos Variados para seu estilo</h3>
+                    <h3 className="text-xl font-bold mb-2">Modelos Variados</h3>
                 </div>
 
-                <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
+                <div data-aos="fade-up" data-aos-delay="200" 
+                    className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
                         <FontAwesomeIcon icon={faShieldHalved} size="4x" className="w-8 h-8 mb-2 text-brand-primary"/>
                     </div>
-                    <h3 className="text-xl font-bold mb-2">Garantia Total contra Defeitos de Fabricação</h3>
+                    <h3 className="text-xl font-bold mb-2">Garantia Total</h3>
                 </div>
 
-                <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
+                <div data-aos="fade-up" data-aos-delay="300" 
+                    className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
                         <FontAwesomeIcon icon={faClock} size="4x" className="w-8 h-8 mb-2 text-brand-primary"/>
                     </div>
-                    <h3 className="text-xl font-bold mb-2">Entregamos seu óculos em até 59 minutos</h3>
+                    <h3 className="text-xl font-bold mb-2 max-w-50">Entregamos em até 59 minutos</h3>
                 </div>
 
-                <div className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
+                <div data-aos="fade-up" data-aos-delay="400"
+                    className="flex flex-col justify-center items-center p-4 bg-white rounded-lg shadow-xl text-center border-b-4 border-brand-secondary">
                     <div className="bg-primary/10 p-4 rounded-full mb-4">
                         <FontAwesomeIcon icon={faDollarSign} size="4x" className="w-8 h-8 mb-2 text-brand-primary"/>
                     </div>
-                    <h3 className="text-xl font-bold mb-2">Temos os melhores preços da região</h3>
+                    <h3 className="text-xl font-bold mb-2 max-w-50">Os melhores preços da região</h3>
                 </div>
             </div>
         </div>

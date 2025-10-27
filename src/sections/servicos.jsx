@@ -3,7 +3,7 @@ import { faClock, faShieldHalved,faDollarSign, faGlasses} from "@fortawesome/fre
 
 export default function Servicos(){
     return(
-        <section>
+        <section className="">
         <div className="container mx-auto px-4">
             <div className="relative z-30 -mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto max-w-6xl px-4">
                 <div data-aos="fade-up" data-aos-delay="100" 

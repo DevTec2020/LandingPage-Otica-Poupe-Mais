@@ -34,13 +34,17 @@ export default function Hero(){
                     </div>
 
                     {/* Botão de Ação (CTA) - Chamativo e Pulsante */}
-                    <button className="px-12 py-5 text-xl font-black rounded-full 
-                        text-brand-dark 
-                        shadow-2xl transition duration-300 transform hover:scale-105 
-                        bg-gradient-to-b from-brand-primary to-brand-secondary 
-                        mb-8 animate-bounce hover:animate-none">
-                        APROVEITE AGORA!
-                    </button>
+                    <a
+                        href="https://wa.me/558597228120?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20óculos."
+                        target="_blank">
+                        <button className="px-12 py-5 text-xl font-black rounded-full 
+                            text-brand-dark 
+                            shadow-2xl transition duration-300 transform hover:scale-105 
+                            bg-gradient-to-b from-brand-primary to-brand-secondary 
+                            mb-8 animate-bounce hover:animate-none cursor-pointer">
+                            APROVEITE AGORA!
+                        </button>
+                    </a>
                     
                     
                         

@@ -56,9 +56,9 @@ export default function Oferta() {
           </div>
 
           <button
-            className="w-full py-4 text-2xl font-extrabold text-white rounded-full shadow-lg bg-green-500 hover:bg-green-600 hover:scale-105 transition-transform duration-300"
+            className="w-full py-4 text-xl md:text-2xl font-bold text-white rounded-full shadow-lg bg-green-500 hover:bg-green-600 hover:scale-105 transition-transform duration-300"
           >
-            QUERO MEU NOVO VISUAL AGORA!
+            QUERO MEU ÓCULOS NOVO!
           </button>
 
           <div className="mt-6 text-sm text-gray-600">

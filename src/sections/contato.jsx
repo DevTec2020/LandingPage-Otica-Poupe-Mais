@@ -6,7 +6,7 @@ export default function Contato(){
         <section id='contato' className="bg-gradient-to-tl from-brand-primary/30 to-brand-secondary py-10">
             <div className="container mx-auto px-6 flex flex-col items-center text-center">
                 <div className="max-w-5xl ">
-                    <h2 className="text-2xl md:text-4xl font-extrabold mb-10 text-black uppercase">
+                    <h2 className="text-3xl md:text-4xl font-bold leading-snug mb-10 text-black uppercase">
                         Fale com um de nossos consultores
                     </h2>
 

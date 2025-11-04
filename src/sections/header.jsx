@@ -25,8 +25,9 @@ export default function Header() {
           <a
             href="https://wa.me/558597228120?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20óculos."
             target="_blank"
-            className="bg-brand-primary py-2 px-6 rounded-full text-black hover:bg-brand-secondary transition "
-          >
+            className="py-2 px-6 rounded-full text-black font-bold transition duration-400 transform hover:scale-105 
+                                       bg-gradient-to-r from-brand-primary to-yellow-500 "
+          >                
             Fale conosco
           </a>
         </nav>

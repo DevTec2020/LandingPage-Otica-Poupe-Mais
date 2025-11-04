@@ -29,7 +29,7 @@ export default function Clientes() {
       className="py-16 px-4 text-center"
       style={{ backgroundColor: COLORS.lightGray }}
     >
-      <h3 className="text-3xl md:text-3xl font-extrabold mb-10 text-gray-500 uppercase">
+      <h3 className="text-2xl md:text-3xl font-extrabold mb-10 text-gray-500 uppercase">
         Veja o que nossos clientes estão dizendo.
       </h3>
 

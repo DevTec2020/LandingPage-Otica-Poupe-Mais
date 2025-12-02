@@ -2,7 +2,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp} from '@fortawesome/free-brands-svg-icons'
 import { faClock, faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 
-import Fachada from "../assets/loja.webp"
+import Fachada from "../assets/fachada.webp"
+import Fachada2 from "../assets/loja.webp"
+
 
 export default function Contato(){
     return(
@@ -16,7 +18,7 @@ export default function Contato(){
                     
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-4"> 
                         
-                        {/* Bloco 1 */}
+                        {/* Loja 1 */}
                         <div className="p-6 rounded-2xl shadow-2xl bg-white text-gray-800 transition duration-300 hover:shadow-brand-primary/50" >
                             <div className="flex flex-col md:flex-row items-center">
                                 <div className="w-full md:w-5/12 mb-6 md:mb-0 md:mr-6"> 
@@ -70,12 +72,12 @@ export default function Contato(){
                             </div>
                         </div>
 
-                        {/* Bloco 2 */}
+                        {/* Loja 2 */}
                         <div className="p-6 rounded-2xl shadow-2xl bg-white text-gray-800 transition duration-300 hover:shadow-brand-primary/50" >
                              <div className="flex flex-col md:flex-row items-center">
                                 <div className="w-full md:w-5/12 mb-6 md:mb-0 md:mr-6"> 
                                     <img
-                                        src={Fachada}
+                                        src={Fachada2}
                                         alt="Fachada Ótica Poupe Mais - Unidade 2"
                                         className="rounded-xl w-full h-auto aspect-square object-cover" 
                                     />
@@ -135,7 +137,7 @@ export default function Contato(){
                                        bg-gradient-to-r from-emerald-500 to-teal-600" 
                         >
                              <FontAwesomeIcon icon={faClock} className="mr-3 text-xl" /> 
-                             AGENDAR HORÁRIO COM CONSULTOR GERAL
+                             AGENDAR HORÁRIO COM ESPECIALISTA
                         </a>
                         
                         

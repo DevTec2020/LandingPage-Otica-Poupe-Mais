@@ -2,7 +2,8 @@ import Header from "./sections/header"
 import Hero from "./sections/hero"
 import Servicos from "./sections/servicos"
 import Oferta from "./sections/oferta"
-import Clientes from "./sections/clientes"
+import Produtos from "./sections/produtos"
+// import Clientes from "./sections/clientes"
 import Contato from "./sections/contato"
 import Galeria from "./sections/galeria"
 import Footer from "./sections/footer"
@@ -23,7 +24,8 @@ function App() {
       <Hero/>
       <Servicos/>
       <Oferta/>
-      <Clientes/>
+      <Produtos/>
+      {/* <Clientes/> */}
       <Contato/>
       <Galeria/>
       <Footer/>

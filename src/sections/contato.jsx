@@ -59,7 +59,7 @@ export default function Contato(){
                                     </div>
 
                                     <a 
-                                        href="https://wa.me/558597228120?text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20visita%20para%20conhecer%20as%20ofertas%20de%C3%B3culos." 
+                                        href="https://wa.me/558597228120?text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20visita%20para%20conhecer%20as%20ofertas." 
                                         target='_blank' 
                                         className="inline-flex items-center justify-center gap-2 px-6 py-2 mt-6 text-lg font-bold rounded-full text-white shadow-lg transition duration-300 transform hover:scale-105 
                                                    bg-green-500 hover:bg-green-600 whitespace-nowrap" // Usei um verde puro para destaque do WhatsApp
@@ -88,7 +88,7 @@ export default function Contato(){
                                         <h3 className="font-extrabold text-2xl text-brand-primary uppercase mb-1"> 
                                             Ótica Poupe Mais
                                         </h3>
-                                        <p className="text-sm">Outro Bairro, Fortaleza - CE</p>
+                                        <p className="text-sm">Centro, Fortaleza - CE</p>
                                     </div>
 
                                     <h4 className="text-sm font-bold text-gray-600 my-2">FALE CONOSCO</h4>
@@ -96,11 +96,11 @@ export default function Contato(){
                                     <div className="flex flex-col items-center md:items-start text-sm"> 
                                         <p className="mb-1">
                                             <FontAwesomeIcon icon={faLocationDot} className="mr-2 w-4 h-4 text-brand-primary"/>
-                                            <span>Rua Exemplo de Endereço, 123</span>
+                                            <span>R. Major Facundo, 446</span>
                                         </p>
                                         <p className="mb-1">
                                             <FontAwesomeIcon icon={faPhone} className="mr-2 w-4 h-4 text-brand-primary"/> 
-                                            <span>(85) 90000-0000</span>
+                                            <span>(85) 996406483</span>
                                         </p>
                                         <p className="mb-1">
                                             <FontAwesomeIcon icon={faEnvelope} className="mr-2 w-4 h-4 text-brand-primary"/>
@@ -108,12 +108,12 @@ export default function Contato(){
                                         </p>
                                         <p>
                                             <FontAwesomeIcon icon={faClock} className="mr-2 w-4 h-4 text-brand-primary"/>
-                                            <span className="font-semibold">Seg-Sex: 8h às 17h</span>
+                                            <span className="font-semibold mr-2">Seg-Sex: 8h às 17h - Sab: 8h às 14h</span>
                                         </p>
                                     </div>
 
                                     <a 
-                                        href="https://wa.me/558597228120?text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20visita%20para%20conhecer%20as%20ofertas%20de%C3%B3culos." 
+                                        href="https://wa.me/5585996406483?text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20visita%20para%20conhecer%20as%20ofertas." 
                                         target='_blank' 
                                         className="inline-flex items-center justify-center gap-2 px-6 py-2 mt-6 text-lg font-bold rounded-full text-white shadow-lg transition duration-300 transform hover:scale-105 
                                                    bg-green-500 hover:bg-green-600 whitespace-nowrap"

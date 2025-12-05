@@ -30,6 +30,7 @@ export default function Produtos() {
         Armações em Destaque
       </h3>
 
+
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
         {armacoes.map((arm, index) => (
           <ProdutoCard key={index} arm={arm} />

@@ -65,7 +65,7 @@ export default function Contato(){
                                                    bg-green-500 hover:bg-green-600 whitespace-nowrap" // Usei um verde puro para destaque do WhatsApp
                                     >
                                         <FontAwesomeIcon icon={faWhatsapp} className="w-5 h-5" /> 
-                                        FALAR COM UNIDADE 1
+                                        UNIDADE MESSEJANA
                                     </a>
 
                                 </div>
@@ -119,7 +119,7 @@ export default function Contato(){
                                                    bg-green-500 hover:bg-green-600 whitespace-nowrap"
                                     >
                                         <FontAwesomeIcon icon={faWhatsapp} className="w-5 h-5" /> 
-                                        FALAR COM UNIDADE 2
+                                        UNIDADE CENTRO
                                     </a>
                                 </div>
                             </div>

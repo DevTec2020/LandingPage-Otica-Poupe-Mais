@@ -30,7 +30,7 @@ export default function Footer(){
                     </div>
                     <div className="flex items-center">
                         <FontAwesomeIcon icon={faEnvelope} className="mr-2 w-4 h-4"/>
-                        <span>email@dominio.com.br</span>
+                        <span>oticapoupemais@gmail.com</span>
                     </div>
                     <div className="flex items-center">
                         <FontAwesomeIcon icon={faClock} className="mr-2 w-4 h-4"/>

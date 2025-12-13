@@ -50,11 +50,11 @@ export default function Contato(){
                                         </p>
                                         <p className="mb-1">
                                             <FontAwesomeIcon icon={faEnvelope} className="mr-2 w-4 h-4 text-brand-primary"/>
-                                            <span>email@dominio.com.br</span>
+                                            <span>oticapoupemais@gmail.com</span>
                                         </p>
                                         <p>
                                             <FontAwesomeIcon icon={faClock} className="mr-2 w-4 h-4 text-brand-primary"/>
-                                            <span className="font-semibold">Seg-Sex: 8h às 17h</span>
+                                            <span className="font-semibold">Seg-Sex: 8h às 17h - Sab: 8h às 14h</span>
                                         </p>
                                     </div>
 
@@ -104,7 +104,7 @@ export default function Contato(){
                                         </p>
                                         <p className="mb-1">
                                             <FontAwesomeIcon icon={faEnvelope} className="mr-2 w-4 h-4 text-brand-primary"/>
-                                            <span>outroemail@dominio.com.br</span>
+                                            <span>oticapoupemais@gmail.com</span>
                                         </p>
                                         <p>
                                             <FontAwesomeIcon icon={faClock} className="mr-2 w-4 h-4 text-brand-primary"/>

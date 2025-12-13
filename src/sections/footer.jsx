@@ -42,7 +42,7 @@ export default function Footer(){
             <div className="flex flex-col justify-center mt-8 lg:mt-0">
                 <h3 className="font-bold text-lg mb-4">Redes Sociais</h3>
                 <div className="flex space-x-4">
-                    <a href="https://www.linkedin.com/" target="_blank" 
+                    <a href="https://www.linkedin.com/in/ótica-poupe-mais-36b10b397/" target="_blank" 
                         className="bg-brand-blue-light hover:bg-brand-blue-light/90 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
                         <FontAwesomeIcon icon={faLinkedin} size="xl"/>
                     </a>
@@ -54,7 +54,7 @@ export default function Footer(){
                         className="bg-brand-blue-light hover:bg-brand-blue-light/90 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
                         <FontAwesomeIcon icon={faWhatsapp} size="xl"/>
                     </a>
-                    <a href="mailto:" target="_blank" 
+                    <a href="mailto:oticapoupemais@gmail.com" target="_blank" 
                         className="bg-brand-blue-light hover:bg-brand-blue-light/90 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
                         <FontAwesomeIcon icon={faEnvelope} size="xl"/>
                     </a>
@@ -67,7 +67,7 @@ export default function Footer(){
         <div className="mt-8 pt-5 border-t border-gray-700">
             <div className="md:flex md:flex-wrap md:items-center md:justify-between px-3 lg:px-0">
                 <div className="text-center md:text-left">
-                    <p className="text-gray-400 text-sm uppercase">Óticas Poupe Mais - CNPJ: 00.000.000/0000-00</p>
+                    <p className="text-gray-400 text-sm uppercase">Óticas Poupe Mais - CNPJ: 61.995.602.0001-10</p>
                 </div>
 
                 <div className="mt-4 md:mt-2 lg:mt-0 text-center md:text-left">

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://landing-page-otica-poupe-mais.vercel.app/sitemap.xml

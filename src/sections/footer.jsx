@@ -42,19 +42,19 @@ export default function Footer(){
             <div className="flex flex-col justify-center mt-8 lg:mt-0">
                 <h3 className="font-bold text-lg mb-4">Redes Sociais</h3>
                 <div className="flex space-x-4">
-                    <a href="https://www.linkedin.com/in/ótica-poupe-mais-36b10b397/" target="_blank" 
+                    <a href="https://www.linkedin.com/in/ótica-poupe-mais-36b10b397/" target="_blank" rel="noopener noreferrer" 
                         className="bg-brand-blue-light hover:bg-brand-blue-light/90 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
                         <FontAwesomeIcon icon={faLinkedin} size="xl"/>
                     </a>
-                    <a href="https://www.instagram.com/oticapoupemais" target="_blank" 
+                    <a href="https://www.instagram.com/oticapoupemais" target="_blank" rel="noopener noreferrer"
                         className="bg-brand-blue-light hover:bg-brand-blue-light/90 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
                         <FontAwesomeIcon icon={faInstagram} size="xl"/>
                     </a>
-                    <a href="https://wa.me/85992819050?text=Olá,%20vim%20do%20site%20e%20quero%20saber%20mais%20sobre%20os%20óculos." target="_blank"
+                    <a href="https://wa.me/85992819050?text=Olá,%20vim%20do%20site%20e%20quero%20saber%20mais%20sobre%20os%20óculos." target="_blank" rel="noopener noreferrer"
                         className="bg-brand-blue-light hover:bg-brand-blue-light/90 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
                         <FontAwesomeIcon icon={faWhatsapp} size="xl"/>
                     </a>
-                    <a href="mailto:oticapoupemais@gmail.com" target="_blank" 
+                    <a href="mailto:oticapoupemais@gmail.com" target="_blank" rel="noopener noreferrer"
                         className="bg-brand-blue-light hover:bg-brand-blue-light/90 w-10 h-10 rounded-full flex items-center justify-center transition duration-300">
                         <FontAwesomeIcon icon={faEnvelope} size="xl"/>
                     </a>
@@ -73,7 +73,7 @@ export default function Footer(){
                 <div className="mt-4 md:mt-2 lg:mt-0 text-center md:text-left">
                     <p className="text-gray-400 text-sm">
                         <span>
-                            Desenvolvido por <a href="https://www.tecnoldeskservicos.com.br" target="_blank" className="font-bold">TecnolDesk Serviços</a>
+                            Desenvolvido por <a href="https://www.tecnoldeskservicos.com.br" target="_blank" rel="noopener noreferrer" className="font-bold">TecnolDesk Serviços</a>
                         </span>
                     </p>
                 </div>

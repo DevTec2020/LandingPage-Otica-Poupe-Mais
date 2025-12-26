@@ -41,7 +41,7 @@ export default function SideBar({ onClose }) {
           <a
             href="https://wa.me/5585992819050?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20óculos."
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             onClick={onClose}
             className="text-left flex items-center w-full p-3 rounded-lg hover:bg-white/10"
           >

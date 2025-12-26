@@ -8,7 +8,6 @@ import Fachada2 from "../assets/loja.webp"
 
 export default function Contato(){
     return(
-        // Fundo escuro
         <section id='contato' className="bg-gradient-to-b from-brand-primary/60 to-brand-secondary py-16">
             <div className="container mx-auto px-6 flex flex-col items-center text-center">
                 <div className="max-w-7xl">
@@ -24,7 +23,7 @@ export default function Contato(){
                                 <div className="w-full md:w-5/12 mb-6 md:mb-0 md:mr-6"> 
                                     <img
                                         src={Fachada}
-                                        alt="Fachada Ótica Poupe Mais - Unidade 1"
+                                        alt="Fachada Ótica Poupe Mais - Unidade Messejana"
                                         className="rounded-xl w-full h-auto aspect-square object-cover" 
                                     />
                                 </div>
@@ -78,7 +77,7 @@ export default function Contato(){
                                 <div className="w-full md:w-5/12 mb-6 md:mb-0 md:mr-6"> 
                                     <img
                                         src={Fachada2}
-                                        alt="Fachada Ótica Poupe Mais - Unidade 2"
+                                        alt="Fachada Ótica Poupe Mais - Unidade Centro"
                                         className="rounded-xl w-full h-auto aspect-square object-cover" 
                                     />
                                 </div>

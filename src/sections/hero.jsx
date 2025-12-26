@@ -20,9 +20,9 @@ export default function Hero() {
                 <span className="text-xl md:text-3xl font-bold text-white block title-shadow">
                     Compre Óculos de Grau e
                 </span>
-                <p className="text-4xl md:text-7xl mt-4 font-extrabold title-shadow">
+                <h1 className="text-4xl md:text-7xl mt-4 font-extrabold title-shadow">
                     <span className="text-brand-primary">LEVE 1 ÓCULOS DE SOL GRÁTIS!</span>
-                </p>
+                </h1>
           </div>
 
           {/* CTA */}

@@ -17,7 +17,7 @@ export default function Footer(){
             </a>
             
             <div className="flex flex-col justify-center md:items-start">
-                <h1 className="font-bold text-2xl uppercase">Ótica Poupe Mais</h1>
+                <h2 className="font-bold text-2xl uppercase">Ótica Poupe Mais</h2>
                 <div className="space-y-1 mt-6">
                     <h3 className="text-md font-bold mb-2">ENTRE EM CONTATO</h3>
                     <div className="flex items-start">

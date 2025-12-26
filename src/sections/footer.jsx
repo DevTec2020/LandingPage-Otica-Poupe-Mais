@@ -1,4 +1,4 @@
-import Logo from "../assets/Logo_amarela.png";
+import Logo from "../assets/Logo_amarela.webp";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock, faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";

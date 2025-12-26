@@ -5,7 +5,7 @@ import { AnimatePresence } from "framer-motion";
 import SideBar from "../components/SideBar";
 
 
-import Logo from "../assets/Logo_dourada.png";
+import Logo from "../assets/Logo_dourada.webp";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);

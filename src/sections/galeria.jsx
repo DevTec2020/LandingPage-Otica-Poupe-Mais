@@ -14,10 +14,10 @@ export default function Galeria(){
 
   return (
     <section id="galeria" className="py-16 px-4 bg-white text-center">
-      <h3 className="text-2xl md:text-4xl font-extrabold mb-10 text-gray-500 uppercase">
+      <h2 className="text-2xl md:text-4xl font-extrabold mb-10 text-gray-500 uppercase">
         QUEM ENTENDE DE IMAGEM ESCOLHE A{" "}
         <span className="text-brand-secondary uppercase">Ótica Poupe Mais</span>
-      </h3>
+      </h2>
 
       <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4">
         {GALLERY_IMAGE_URLS.map((url, index) => (

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Logo from "../assets/Logo_amarela.png";
+import Logo from "../assets/Logo_dourada.webp";
 
 
 export default function SideBar({ onClose }) {

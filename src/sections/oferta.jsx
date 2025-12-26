@@ -1,5 +1,5 @@
 import Pay from "../assets/pagamento.webp"
-import Logo from "../assets/Logo_amarela.png"
+import Logo from "../assets/Logo_amarela.webp"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
@@ -11,9 +11,9 @@ export default function Oferta() {
         {/* Lado Esquerdo – Dores */}
         <div data-aos="fade-right" data-aos-delay="100" 
           className="flex flex-col justify-center w-full lg:w-1/2 text-gray-800">
-          <h3 className="text-3xl font-bold mb-6 leading-snug text-gray-900 text-center md:text-left uppercase">
+          <h2 className="text-3xl font-bold mb-6 leading-snug text-gray-900 text-center md:text-left uppercase">
             Cansado(a) de se frustrar em outras óticas?
-          </h3>
+          </h2>
 
           <ul className="space-y-3 text-xl text-gray-700">
             <li className="flex md:items-center gap-2">

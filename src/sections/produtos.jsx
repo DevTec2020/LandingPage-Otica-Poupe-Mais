@@ -1,17 +1,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
-import teste2 from "../assets/armacoes/teste2.png"
-import teste21 from "../assets/armacoes/teste2-1.png"
+import teste2 from "../assets/armacoes/teste2.webp"
+import teste21 from "../assets/armacoes/teste2-1.webp"
 
-import teste3 from "../assets/armacoes/teste3.png"
-import teste31 from "../assets/armacoes/teste3-1.png"
+import teste3 from "../assets/armacoes/teste3.webp"
+import teste31 from "../assets/armacoes/teste3-1.webp"
 
-import teste4 from "../assets/armacoes/teste4.png"
-import teste41 from "../assets/armacoes/teste4-1.png"
+import teste4 from "../assets/armacoes/teste4.webp"
+import teste41 from "../assets/armacoes/teste4-1.webp"
 
-import teste5 from "../assets/armacoes/teste5.png"
-import teste51 from "../assets/armacoes/teste5-1.png"
+import teste5 from "../assets/armacoes/teste5.webp"
+import teste51 from "../assets/armacoes/teste5-1.webp"
 
 import { useState } from "react";
 

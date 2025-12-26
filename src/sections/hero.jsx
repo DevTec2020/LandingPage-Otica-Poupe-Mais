@@ -32,10 +32,11 @@ export default function Hero() {
             rel="noopener noreferrer"
             >
                 <button
-                    className="px-10 py-4 text-lg md:text-xl font-black rounded-full 
-                                bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white shadow-lg 
-                                transition-all duration-300 transform hover:scale-105 
-                                mb-6 cursor-pointer"
+                  name="ContatoWpp"
+                  className="px-10 py-4 text-lg md:text-xl font-black rounded-full 
+                              bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white shadow-lg 
+                              transition-all duration-300 transform hover:scale-105 
+                              mb-6 cursor-pointer"
                 >
                     FALE CONOSCO PELO WHATSAPP
                 </button>

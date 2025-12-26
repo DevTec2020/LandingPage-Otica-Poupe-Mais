@@ -38,6 +38,7 @@ export default function Header() {
           className="md:hidden text-white focus:outline-none"
           onClick={() => setIsOpen((s) => !s)}
           id="mobile-menu-button"
+          name="MenuMobile"
           aria-expanded={isOpen}
           area-controls="mobile-sidebar"
         >

@@ -55,12 +55,14 @@ export default function Oferta() {
             <p className="mt-2 text-md">*Parcelamos em até 10x de 24,90</p>
           </div>
 
-          <button
+          <a  href="https://wa.me/5585992819050?text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20a%20oferta%20de%20óculos." 
+            target='_blank'
+            rel="noopener noreferrer"
             name="ContatoOferta"
             className="w-full uppercase px-8 py-3 text-xl md:text-2xl font-bold text-white cursor-pointer rounded-xl shadow-lg bg-gradient-to-r from-emerald-500 to-teal-600 hover:bg-green-600 hover:scale-105 transition-transform duration-300"
           >             
             Aproveitar Oferta
-          </button>
+          </a>
 
           <div className="mt-6 text-sm text-gray-600">
             <p>Parcelamos em até <span className="font-bold">10x sem juros nos cartões</span>.</p>

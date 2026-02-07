@@ -42,7 +42,7 @@ export default function Produtos() {
             Precisa de ajuda?
         </h3>
         
-        <a  href="https://wa.me/558597228120?text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20visita%20para%20conhecer%20as%20ofertas%20de%20óculos." 
+        <a  href="https://wa.me/5585992819050?text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20óculos." 
             target='_blank'
             rel="noopener noreferrer" 
             className="inline-flex items-center justify-center px-8 py-3 text-lg font-bold rounded-xl text-white shadow-xl transition duration-300 transform hover:scale-105 

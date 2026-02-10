@@ -55,7 +55,7 @@ export default function Oferta() {
             <p className="mt-2 text-md">*Parcelamos em até 10x de 24,90</p>
           </div>
 
-          <a  href="https://wa.me/5585992819050?text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20a%20oferta%20de%20óculos." 
+          <a  href="https://wa.me/5585992819050?text=Ol%C3%A1,%20vim%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20oferta%20de%20óculos." 
             target='_blank'
             rel="noopener noreferrer"
             name="ContatoOferta"
